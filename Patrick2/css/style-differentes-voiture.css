@@ -1,0 +1,194 @@
+
+.wrap-nos-types-de-voitures {
+  margin-top: 60px;
+}
+.titre-bloc-nos-voitures {
+  font-family: Futura PTM;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  position: relative;
+  color: #86bb45;
+  width: 100%;
+  margin: 0 0 10px;
+  padding-right: 45px;
+  text-align: center;
+  position: relative;
+}
+.titre-bloc-nos-voitures:before {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #86bb45;
+  position: absolute;
+  top: 50%;
+  left: 34%;
+}
+.titre-bloc-nos-voitures:after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #86bb45;
+  position: absolute;
+  top: 50%;
+  right: 38%;
+}
+.second-title-nos-voitures {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 500;
+  font-family: Futura PTM;
+  margin: 0 0 5px;
+  text-align: center;
+}
+.paragraph-description-services {
+  font-family: Futura PT Book;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.8;
+  color: #848484;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.differents-types-vehicles {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.un-echantillon-de-vehicule {
+  width: 32.33%;
+}
+.title-echantillon {
+  font-family: Futura PTM;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0 0 5px;
+  float: left;
+  width: 100%;
+  color: #86bb45;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+}
+.second-title-echantillon {
+  font-size: 28px;
+  font-style: normal;
+  line-height: 36px;
+  font-family: Futura PTM;
+  color: #2c2c2c;
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 0px;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.bottom-informations-echantillon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-bloc-echantillon img {
+  width: 100%;
+}
+.image-bloc-echantillon {
+  margin-bottom: 10px;
+}
+
+.bottom-informations-echantillon button {
+    background-color: #000;
+    font-family: Jost;
+    position: relative;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 35px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    backdrop-filter: none;
+    filter: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    border-width: 0px;
+    width: 190px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.bottom-informations-echantillon button .text-button:after {
+    
+    content: "\f105";
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    z-index: 1;
+    font-family: 'Font Awesome 5 Free';
+    line-height: 1;
+    font-size: 11px;
+    font-weight: 700;
+    opacity: 0.8;
+    margin-left: 5px;
+    right: 0;
+    margin-right: 10px;
+}
+
+
+.bottom-informations-echantillon button:hover .text-button:before {
+  left:0;
+  margin-left:10px;
+}
+
+.bottom-informations-echantillon button:hover .text-button {
+   margin-left:50px;
+}
+
+.bottom-informations-echantillon button:hover{
+  background-color: #86bb45;
+}
+.bottom-informations-echantillon button .text-button:before {
+    
+    content: " ";
+    position: absolute;
+    top: 60%;
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    margin-top: -6px;
+    z-index: 1;
+    font-family: 'Font Awesome 5 Free';
+    right: 0;
+    margin-right: 10px;
+}
+
+.paragraph-description-echantillon {
+  font-family: Futura PTM;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.8;
+  color: #848484;
+  text-align: center;
+}
+.bottom-informations-echantillon.differents-items-right button {
+  text-align: center;
+}

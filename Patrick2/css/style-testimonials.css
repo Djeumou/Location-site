@@ -1,0 +1,146 @@
+
+.container-testimonials {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.text-description-testimonials {
+  position: absolute;
+  left: 21%;
+  top: 25%;
+}
+.backgrounf-image-testimonials img {
+  width: 100%;
+}
+.all-testimonials-item {
+  position: absolute;
+  display: flex !important;
+  bottom: -7%;
+  left: 15px;
+  padding: 0;
+  /*! overflow: hidden; */
+  width: 98%;
+  /*! align-items: center; */
+}
+.wrap-testimonials {
+  margin-top: 50px;
+}
+
+.background-color-testimonials {
+  width: 100%;
+  height: 675px;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.5;
+}
+.backgrounf-image-testimonials {
+  width: 100%;
+  height: 675px;
+}
+.item-testimonials {
+  width: 85.3%;
+  background-color: #f7f9fa;
+  padding: 35px 25px;
+}
+
+.start-note {
+  margin-bottom: 15px;
+}
+.paragraph-talk-testimonial p {
+  line-height: 30px;
+}
+.start-note .fa-star {
+  color: yellow;
+}
+.head-item-bloc {
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  justify-content: space-evenly;
+}
+
+.right-info h3 {
+  font-family: Futura PTM;
+  color: #2c2c2c;
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 24px;
+}
+.right-info h2 {
+  font-family: Futura PT Book;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 10px;
+  float: left;
+  width: 100%;
+  color: #86bb45;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.start-note {
+  margin-bottom: 15px;
+}
+.paragraph-talk-testimonial p {
+  line-height: 30px;
+}
+.start-note .fa-star {
+  color: #FBBF37;
+}
+
+.text-description-testimonials h2 {
+  color: #fff;
+}
+.text-description-testimonials p {
+  color: #fff;
+}
+
+.text-description-testimonials .titre-bloc-nos-voitures:after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #86bb45;
+  position: absolute;
+  top: 50%;
+  left: 22%;
+}
+.text-description-testimonials .titre-bloc-nos-voitures:before {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #86bb45;
+  position: absolute;
+  top: 50%;
+  left: 66%;
+}
+
+.text-button a {
+  color: #fff;
+}
+
+.owl-dot {
+  width: 40px;
+  height: 2px;
+  background-color: #848484;
+  position: absolute;
+  bottom: -30px;
+  left: 46%;
+  z-index: 4;
+}
+.owl-dot.active {
+  width: 40px;
+  height: 2px;
+  background-color: #86BB45;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+}
+.owl-dots {
+}
+.head-item-bloc img {
+  width: 25% !important;
+  border-radius: 50%;
+}

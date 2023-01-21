@@ -1,0 +1,131 @@
+.container-banner {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.text-first-line-view {
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* display: block; */
+    /* align-items: center; */
+}
+
+.wrap-banner {
+    height: 525px;
+}
+
+.background-video-banner video {
+    /* height: 100%; */
+    width: 100%;
+}
+
+.background-video-banner {
+    width: 100%;
+    /*! opacity: 0.7; */
+    height: 100%;
+}
+
+.text-first-line-view p {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: center;
+    line-height: 78px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 70px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+.text-first-line-view button {
+    background-color: rgb(134, 187, 69);
+    font-family: Jost;
+    position: relative;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 35px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    backdrop-filter: none;
+    filter: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    border-width: 0px;
+    width: 190px;
+    height: 50px;
+}
+
+.text-first-line-view button .text-button:after {
+    
+    content: "\f105";
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    z-index: 1;
+    font-family: 'Font Awesome 5 Free';
+    line-height: 1;
+    font-size: 11px;
+    font-weight: 700;
+    opacity: 0.8;
+    margin-left: 5px;
+    right: 0;
+    margin-right: 10px;
+}
+
+
+.text-first-line-view button:hover .text-button:before {
+  left:0;
+  margin-left:10px;
+}
+
+.text-first-line-view button:hover .text-button {
+ margin-left:50px;
+}
+
+.background-color-text {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: #86bb45;
+  opacity: 0.4;
+}
+
+.text-first-line-view button .text-button:before {
+    
+    content: " ";
+    position: absolute;
+    top: 60%;
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    margin-top: -6px;
+    z-index: 1;
+    font-family: 'Font Awesome 5 Free';
+    right: 0;
+    margin-right: 10px;
+}

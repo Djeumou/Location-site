@@ -1,0 +1,29 @@
+
+.container-more-about-vehicle {
+  width: 1200px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.wrap-more-about-vehicle {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  /*! overflow: hidden; */
+}
+.container-more-about-vehicle {
+  width: 1200px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.input-range-slide {
+  position: absolute;
+  left: 128px;
+  z-index: 13;
+  /*! bottom: -600px; */
+  text-align: center;
+  opacity: 1;
+  cursor: ew-resize;
+}
+.input-range-slide {
+}

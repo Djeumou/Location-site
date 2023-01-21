@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> More info vehicle </title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/style-more-info-vehicle.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/car.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="wrapper-car">
+		<div class="container">
+			<div class="wrap-car">
+				<div class="wrap-car-image">
+					<img src="images/alfa.png">
+					<div class="car-image"></div>
+				</div>
+				<div class="form-range">
+					<form action="" class="my-range">
+						<input type="range" name="range" id="input-range" min="0" max="17" value="0">
+						<span class="texte"></span>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script>
+	var slider = document.getElementById("input-range");
+	$(slider).on('input',()=>{
+		$('.car-image').css({"opacity":"1"})
+		var position=6.25*slider.value+"%"
+		$('.car-image').css({"transform":"translateX(-"+position+")"})
+		$('.texte').text(slider.value)
+	})
+</script>
+</html>
